@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
-
+/*Nav Section Style*/
 .nav {
   height: 50px;
   background: rgb(244, 125, 125);
@@ -27,7 +27,7 @@
   color: white;
   padding: 5px;
 }
-
+/*Home Section style*/
 .home {
   background: url("../images/backgroundHome.jpg");
   background-size: cover;
@@ -40,7 +40,7 @@
   justify-content: center;
   height: 90vh;
 }
-
+/*About Me Section Style*/
 .aboutMe .about-content {
   margin: 150px auto 0 auto;
   width: 500px;
@@ -57,6 +57,7 @@
   color: green;
 }
 
+/*Projects Section Style*/
 .projects {
   background-color: lavender;
   font-family: "Lato", sans-serif;
@@ -82,6 +83,26 @@
 .projects .projects-content ul li p {
   text-align: center;
   color: black;
+}
+
+/*Contact Section Style*/
+.contact {
+  background-color: burlywood;
+  background: cover;
+  font-family: "Lato", sans-serif;
+}
+
+.contact .contact-content {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.contact .contact-content h1 {
+  color: red;
+}
+
+.contact .contact-content p {
+  color: rgb(17, 137, 206);
 }
 /* Old ones
 <style>
