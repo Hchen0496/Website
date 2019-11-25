@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+.nav {
+  height: 50px;
+  background: rgb(244, 125, 125);
+}
+
+.nav div {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav ul {
+  position: absolute;
+  right: 5px;
+}
+
+.nav ul li {
+  display: inline-block;
+}
+
+.nav ul li a {
+  color: white;
+  padding: 5px;
+}
+
+.home {
+  background: url("../images/backgroundHome.jpg");
+  background-size: cover;
+}
+
+.home .text-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+.aboutMe .about-content {
+  margin: 150px auto 0 auto;
+  width: 500px;
+}
+
+.aboutMe .about-content h1 {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  color: red;
+}
+.aboutMe .about-content p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+  color: green;
+}
+
+.projects {
+  background-color: lavender;
+  font-family: "Lato", sans-serif;
+}
+
+.projects .projects-content {
+  margin: 80px auto 0 auto;
+  text-align: center;
+}
+
+.projects .projects-content ul {
+  margin: 20px auto 0 auto;
+  padding: 0;
+}
+.projects .projects-content ul li {
+  list-style: none;
+}
+
+.projects .projects-content h1 {
+  color: green;
+}
+
+.projects .projects-content ul li p {
+  text-align: center;
+  color: black;
+}
+/* Old ones
+<style>
+	/*Background
+	#borderimg
+	{
+		border: 100px solid transparent;
+		border-color: rose;
+	}
+	
+	body
+	{
+		background-image: url("GrayCat.jpg");
+		background-repeat: no-repeat;
+		background-size: cover; 
+	}
+	/*Top navigation
+	.bg-img-topnavbar
+	{
+		background-image: url("TiikaNee.jpg");
+		min-height: 90px;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+	.container{
+		position:absolute;
+		margin: -9px;
+		width: auto;
+	}
+
+	.topnavbar
+	{
+		overflow: hidden;
+		position: fixed;
+		top: 0;
+		width: 100;
+	}
+
+	.topnavlinks a
+	{
+		float: left;
+		color:#333;
+		text-align: center;
+		padding: 16px 20px;
+		text-decoration: none;
+		display: inline-block;
+	}
+
+	.topnav a:hover
+	{
+		background: #233;
+		color: white;
+	}
+	/*Main Content
+	.main
+	{
+		margin-top:30px;
+	}
+	/*Buttons interface On Left
+	.button
+	{
+		background-image: url(Yandere.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right;
+		border-style: outset;
+		color: Purple;
+		padding: 20px 10px;
+		text-align: center;
+		display: inline-block;
+		font-family: "courier New", courier, monospace;
+		font-size: 20px;
+		cursor: pointer;
+	}
+	.button2
+	{
+		background-image: url(Yandere.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: right;
+		border-style: outset;
+		color: Purple;
+		padding: 20px 10px;
+		text-align: center;
+		display: inline-block;
+		font-family: "courier New", courier, monospace;
+		font-size: 20px;
+		cursor: pointer;
+		margin-right: 900px;
+	}
+	/*Lines Horizontal
+	.hr
+	{
+		background-color:#E6E6FA;
+		border-bottom: ridge;
+		border-color: #F0FFF0;
+		padding: 1px cover;
+	}
+
+	.hr2
+	{
+		background-color: #E6E6FA;
+		border-bottom: groove;
+		border-color: Rose; 
+		padding: 1px;
+	}
+	/*Paragraph styles
+	.p1
+	{
+		font-family: "Arial";
+		font-size: 12px ;
+	}
+	.p2
+	{
+		font-family: "Time New Roman";
+		font-size: 16px;
+		font-style: italic;
+	}
+	.p3
+	{
+		font-family: "Arial";
+		font-size: 12px;
+		font-style: bold;
+	}
+*/
