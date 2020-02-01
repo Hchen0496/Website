@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  background-color: black;
+}
+
 /*Nav Section Style*/
 .nav {
   height: 50px;
@@ -29,7 +34,7 @@
 }
 /*Home Section style*/
 .home {
-  background: url("../images/backgroundHome.jpg");
+  background: rgb(0, 172, 240);
   background-size: cover;
 }
 
@@ -41,8 +46,11 @@
   height: 90vh;
 }
 /*About Me Section Style*/
+.aboutMe {
+  background: rgb(0, 172, 240);
+}
 .aboutMe .about-content {
-  margin: 150px auto 0 auto;
+  margin: 0 auto 0 auto;
   width: 500px;
 }
 
@@ -59,12 +67,13 @@
 
 /*Projects Section Style*/
 .projects {
-  background-color: lavender;
+  background: rgb(0, 172, 240);
   font-family: "Lato", sans-serif;
+  flex-direction: column;
 }
 
 .projects .projects-content {
-  margin: 80px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-align: center;
 }
 
@@ -72,6 +81,7 @@
   margin: 20px auto 0 auto;
   padding: 0;
 }
+
 .projects .projects-content ul li {
   list-style: none;
 }
@@ -85,15 +95,37 @@
   color: black;
 }
 
+/*applications Section Style*/
+.applications {
+  background: rgb(0, 172, 240);
+  font-family: "Lato", sans-serif;
+}
+
+.applications .application-contents {
+  margin: 50px auto 0 auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.applications .application-contents ul {
+  margin: 20px auto 0 auto;
+  padding: 0;
+}
+
+.applications .application-contents ul li {
+  list-style: none;
+}
+
 /*Contact Section Style*/
 .contact {
-  background-color: burlywood;
+  background: rgb(0, 172, 240);
   background: cover;
+  background-repeat: repeat-y;
   font-family: "Lato", sans-serif;
 }
 
 .contact .contact-content {
-  margin: 80px auto 0 auto;
+  margin: 50px auto 0 auto;
   text-align: center;
 }
 
@@ -104,129 +136,3 @@
 .contact .contact-content p {
   color: rgb(17, 137, 206);
 }
-/* Old ones
-<style>
-	/*Background
-	#borderimg
-	{
-		border: 100px solid transparent;
-		border-color: rose;
-	}
-	
-	body
-	{
-		background-image: url("GrayCat.jpg");
-		background-repeat: no-repeat;
-		background-size: cover; 
-	}
-	/*Top navigation
-	.bg-img-topnavbar
-	{
-		background-image: url("TiikaNee.jpg");
-		min-height: 90px;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		position: relative;
-	}
-	.container{
-		position:absolute;
-		margin: -9px;
-		width: auto;
-	}
-
-	.topnavbar
-	{
-		overflow: hidden;
-		position: fixed;
-		top: 0;
-		width: 100;
-	}
-
-	.topnavlinks a
-	{
-		float: left;
-		color:#333;
-		text-align: center;
-		padding: 16px 20px;
-		text-decoration: none;
-		display: inline-block;
-	}
-
-	.topnav a:hover
-	{
-		background: #233;
-		color: white;
-	}
-	/*Main Content
-	.main
-	{
-		margin-top:30px;
-	}
-	/*Buttons interface On Left
-	.button
-	{
-		background-image: url(Yandere.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: right;
-		border-style: outset;
-		color: Purple;
-		padding: 20px 10px;
-		text-align: center;
-		display: inline-block;
-		font-family: "courier New", courier, monospace;
-		font-size: 20px;
-		cursor: pointer;
-	}
-	.button2
-	{
-		background-image: url(Yandere.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: right;
-		border-style: outset;
-		color: Purple;
-		padding: 20px 10px;
-		text-align: center;
-		display: inline-block;
-		font-family: "courier New", courier, monospace;
-		font-size: 20px;
-		cursor: pointer;
-		margin-right: 900px;
-	}
-	/*Lines Horizontal
-	.hr
-	{
-		background-color:#E6E6FA;
-		border-bottom: ridge;
-		border-color: #F0FFF0;
-		padding: 1px cover;
-	}
-
-	.hr2
-	{
-		background-color: #E6E6FA;
-		border-bottom: groove;
-		border-color: Rose; 
-		padding: 1px;
-	}
-	/*Paragraph styles
-	.p1
-	{
-		font-family: "Arial";
-		font-size: 12px ;
-	}
-	.p2
-	{
-		font-family: "Time New Roman";
-		font-size: 16px;
-		font-style: italic;
-	}
-	.p3
-	{
-		font-family: "Arial";
-		font-size: 12px;
-		font-style: bold;
-	}
-*/
