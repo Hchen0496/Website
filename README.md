@@ -8,4 +8,5 @@ Any feedback, please do. This helps me develop my own skills.
 - Database: Still currently deciding on it
 - Deployed at netilify: https://iamhuilin.netlify.com
 
-# Updates will be listed here
+# Improvements
+
