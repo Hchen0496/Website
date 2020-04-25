@@ -1,0 +1,15 @@
+{
+  "name": "All'About'Huilin",
+  "short_name": "AAH",
+  "start_url": "./index.html",
+  "display": "browser",
+  "background_color": "#db4938",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/200x130",
+      "type": "image/png",
+      "sizes": "200x130"
+    }
+  ]
+}
